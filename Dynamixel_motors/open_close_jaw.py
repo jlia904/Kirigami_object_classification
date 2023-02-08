@@ -134,9 +134,9 @@ import datetime
 torque_enable()
 set_current_position_mode()
 read_operation_mode()
-set_goal_current(50)
+set_goal_current(10)
 print(f"current position is {read_present_position()}")
-set_goal_position(2000)
+set_goal_position(1000)
 
 time.sleep(1)
 
