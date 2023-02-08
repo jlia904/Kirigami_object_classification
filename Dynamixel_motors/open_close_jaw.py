@@ -112,7 +112,7 @@ def set_goal_current(GOAL_CURRENT):
     result, error = packetHandler.write2ByteTxRx(portHandler, DXL_ID, GOAL_CURRENT_REG, GOAL_CURRENT)
     return
 
-def read_present_position(PRESENT_POSITION):
+def read_present_position():
     PRESENT_POSITION_REG = 132
     PRESENT_POSITION, result, error = packetHandler.read4ByteTxRx(portHandler, DXL_ID, PRESENT_POSITION_REG)
     return PRESENT_POSITION
@@ -122,11 +122,24 @@ def set_goal_position(GOAL_POSITION):
     result, error = packetHandler.write4ByteTxRx(portHandler, DXL_ID, GOAL_POSITION_REG, GOAL_POSITION)
     return
 
+def read_present_current():
+    PRESENT_CURRENT_REG = 126
+    PRESENT_CURRENT, result, error = packetHandler.read2ByteTxRx(portHandler, DXL_ID, PRESENT_CURRENT_REG)
+    return PRESENT_CURRENT
+
+
+import datetime
+
+
 torque_enable()
 set_current_position_mode()
 read_operation_mode()
-set_goal_current(100)
-set_goal_position(900)
+set_goal_current(50)
+print(f"current position is {read_present_position()}")
+set_goal_position(2000)
+
+time.sleep(1)
+
 torque_disable()
 
 # Close port
