@@ -1,4 +1,4 @@
-#!/home/dell/Desktop/xxxx/Uni/Kirigami_project/Keypoint_detection_notebooks/.Keypoint_detection_notebooks/bin/python3
+#!/home/dell/Desktop/xxxx/Uni/Kirigami_project/Keypoint_detection_notebooks/.Keypoint_detection_notebooks/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
