@@ -16,3 +16,4 @@ for i in range(0, 2):
 
 ser.close()
 
+short_dataset_names = ['orange', 'pear', 'banana', 'plum', 'egg', 'straw', 'chicken', 'bayberry', 'grape', 'pistachio']
