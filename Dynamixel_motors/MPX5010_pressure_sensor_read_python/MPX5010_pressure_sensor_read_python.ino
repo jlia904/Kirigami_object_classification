@@ -9,7 +9,7 @@ float pressure_2 = analogRead(A1);
 float pressure_1_tare = 0;
 float pressure_2_tare = 0;
 float average_pressure = 0;
-float alpha = 0.01;
+float alpha = 0.2;
 int incoming_data = 0;
 
 void setup() {
