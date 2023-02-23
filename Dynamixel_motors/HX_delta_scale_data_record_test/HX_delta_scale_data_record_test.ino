@@ -7,15 +7,15 @@
 
 HX711 scale;
 
-uint8_t dataPin = 5;
-uint8_t clockPin = 6;
+uint8_t dataPin = 7;
+uint8_t clockPin = 8;
 
 float w1, w2 = 0;
 
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(57600);
   Serial.println(__FILE__);
   Serial.print("LIBRARY VERSION: ");
   Serial.println(HX711_LIB_VERSION);
@@ -33,14 +33,13 @@ void setup()
   Serial.println(float(calibration_reading)/100);
 
   //A scale factor of 466.8, -473 is found to work the best
-  scale.set_scale(466.8);       // TODO you need to calibrate this yourself.
+  scale.set_scale(466.8);       // -3200.48, -3177.05
   scale.tare();
 }
 
 
 void loop()
 {
-  // read 10 times to get average
   w1 = scale.get_units(5);
   Serial.print("Weight = ");
   Serial.print("DATA,");
@@ -49,5 +48,3 @@ void loop()
   delay(200);
 }
 
-
-// -- END OF FILE --

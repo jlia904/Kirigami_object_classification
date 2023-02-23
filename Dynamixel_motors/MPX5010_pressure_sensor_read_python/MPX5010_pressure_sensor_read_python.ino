@@ -16,7 +16,7 @@ void setup() {
   Serial.begin(57600);
   pinMode(13, OUTPUT);
   
-  for (int i = 0; i < 2000; i++){
+  for (int i = 0; i < 200; i++){
     pressure_1 = pressure_1 * (1-alpha) + alpha *analogRead(A0);
     pressure_2 = pressure_2 * (1-alpha) + alpha *analogRead(A1);
   }
