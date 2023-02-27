@@ -1,0 +1,13 @@
+image_name,weight_reading_1,weight_reading_2,pressure_reading_1,pressure_reading_2,force_reading_1,force_reading_2,label
+Teimage000.jpg,288.1,122.9,28.2,42.4,213.8,215,chicken
+Teimage001.jpg,372.4,175.8,58.1,53.7,265.7,268,tomato
+Teimage002.jpg,314.5,149.5,60.4,38.9,224.5,225.8,chicken
+Teimage003.jpg,381.5,185,45.8,53.5,277.7,279.5,tomato
+Teimage004.jpg,333.1,168.1,44.8,49.3,245.5,248,chicken
+Teimage005.jpg,381.9,185.1,49.6,50.2,272.7,274.2,tomato
+Teimage006.jpg,323.3,157.9,59.9,39,236.9,238.4,chicken
+Teimage007.jpg,391,194.1,61.2,59.2,287,288.6,tomato
+Teimage008.jpg,334,168.8,62.9,25.6,249.2,250.8,chicken
+Teimage009.jpg,392.7,196.1,51.4,54.7,286,286.7,tomato
+Teimage010.jpg,343.5,178.4,47.3,65.7,253.4,254.2,chicken
+Teimage011.jpg,395.4,198.4,58.7,60.7,292,293.7,tomato
