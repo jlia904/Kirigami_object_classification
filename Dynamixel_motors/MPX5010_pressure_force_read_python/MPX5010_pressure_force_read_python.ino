@@ -156,10 +156,8 @@ void loop() {
   }
   else if (incoming_data == '0'){
     digitalWrite(13, LOW);    
-    pressure_1_tare = 0;
-    pressure_2_tare = 0;
-    scale_1.tare(2);
-    scale_2.tare(2);
+    pressure_1_tare = pressure_1;
+    pressure_2_tare = pressure_2;
     send_data(pressure_1 - pressure_1_tare, pressure_2 - pressure_2_tare, scale_1.get_units(1), scale_2.get_units(1));
     
   }
