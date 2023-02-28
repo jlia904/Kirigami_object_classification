@@ -1,1 +1,11 @@
 image_name,weight_reading_1,weight_reading_2,pressure_reading_1,pressure_reading_2,force_reading_1,force_reading_2,label
+Teimage000.jpg,348.8,217.8,51.7,64.5,282.1,281.1,testtube
+Teimage001.jpg,352.9,221.9,46.1,60.0,283.0,282.4,testtube
+Teimage002.jpg,356.8,225.7,45.5,58.3,287.2,286.4,testtube
+Teimage003.jpg,364.2,233.3,37.3,52.7,295.4,294.2,testtube
+Teimage004.jpg,358.4,227.2,43.6,66.5,288.9,287.8,testtube
+Teimage005.jpg,363.3,232.2,26.0,56.7,294.1,292.9,testtube
+Teimage006.jpg,357.3,226.2,46.0,60.0,288.3,287.4,testtube
+Teimage007.jpg,354.7,223.4,48.0,60.7,286.2,284.7,testtube
+Teimage008.jpg,354.4,223.2,48.2,61.7,285.7,284.9,testtube
+Teimage009.jpg,358.9,227.6,35.3,63.6,290.5,289.2,testtube
